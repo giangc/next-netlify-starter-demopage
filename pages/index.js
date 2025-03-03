@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import TailwindTest from '@components/TailwindTest'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <TailwindTest />
       </main>
 
       <Footer />
